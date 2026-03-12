@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Postagem de Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h1>Meu Blog</h1>
+</nav>
+
+<main>
+
+<section>
+
+<h2>Criar Post</h2>
+
+<form id="form-post">
+
+<input 
+type="text" 
+id="titulo" 
+placeholder="Digite o título do post"
+required
+>
+
+<textarea 
+id="conteudo" 
+placeholder="Digite o conteúdo do post"
+required
+></textarea>
+
+<button type="submit">Publicar</button>
+
+</form>
+
+</section>
+
+<section>
+
+<h2>Post publicado</h2>
+
+<article>
+
+<h3 id="renderizador-titulo"></h3>
+
+<p id="renderizador-conteudo"></p>
+
+</article>
+
+</section>
+
+</main>
+
+<script src="main.js"></script>
+
+</body>
+</html>
